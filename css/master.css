@@ -1,0 +1,130 @@
+nav.navbar.navbar-fundation {
+  background-color: #ffffff85;
+  border-bottom: 1px solid lightcoral;
+}
+
+.navbar-brand{
+  width: 400px;
+  padding: 5px;
+}
+.navbar-brand img{
+  margin-top: 5px;
+  margin-left: 20px;
+  max-width: 40%;
+  float: left;
+}
+.navbar-brand span{
+  max-width: 70%;
+  float: left;
+  display: block;
+  margin-top: 25px;
+  margin-left: 45px;
+}
+
+.navbar-nav>li>a{
+  line-height: 20px;
+  padding: 10px 15px;
+  margin: 20px 5px;
+  border-bottom: 2px solid transparent;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover{
+  background-color: transparent;
+  border-bottom: 2px solid black;
+}
+
+.site-header{
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  padding-bottom: 75px;
+}
+
+.claim {
+  padding-top: 150px;
+}
+
+.claim h1{
+  margin: 0px auto 50px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.newsletter {
+  padding: 15px;
+  background-color: deepskyblue;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 3px 4px black;
+  margin-bottom: 75px;
+}
+
+button.btn-suscribe {
+  border: 1px solid white;
+  background-color: mediumvioletred;
+}
+
+.jumbotron{
+  background: transparent;
+}
+
+.jumbotron img {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  display: block;
+}
+
+.jumbotron h2 {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 25px;
+
+}
+
+blockquote{
+  margin-top: 55px;
+}
+
+footer.site{
+  padding: 25px 5px;
+  background-color: #ccc;
+  font-weight: bold;
+}
+
+@media (max-width: 480px) {
+
+  .navbar-brand{
+    width: 200px;
+  }
+  .navbar-brand img{
+    margin-top: 10px;
+    margin-left: 10px;
+    max-width: 40%;
+    float: left;
+  }
+
+  .navbar-toggle {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .navbar-toggle .icon-bar{
+    background-color: black;
+  }
+
+  .site-header{
+    padding-bottom: 25px;
+  }
+
+  .claim {
+    padding-top: 25px;
+  }
+
+
+}
